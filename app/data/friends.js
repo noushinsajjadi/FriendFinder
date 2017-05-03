@@ -1,0 +1,165 @@
+var friends = [
+  {
+      "name":"nilou",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAApnAAAAJDk0NDMxNmE3LTdiOGYtNGZhMi05ODk3LTIyNzBlZTQ5MGEyZg.jpg",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"shadab",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfjAAAAJGNiOGNmMmM1LTgwY2ItNDcxMC1iNGJlLTg3NmEzNjdjMzhhMg.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Ali",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAjYAAAAJDI0ZWI2OGI5LTliNWEtNDFhNC05M2VkLWI1YTdkMGE5NTQ0YQ.jpg",
+  "scores":[
+     1,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Karina",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbTAAAAJGFmYjRlYTc0LTljOTQtNDQwMi05MzY3LTYzOTQ5ZTJmNjU2Nw.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+      ]
+},
+{
+  "name":"Miriam",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAtrAAAAJGI0YTI5OWNmLTI5ZjEtNDNiNy05NWI3LTNiNjU3MmZiNmU4Ng.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     2,
+     2,
+     5,
+     5,
+     5
+      ]
+},
+{
+  "name":"Lisa",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA2sAAAAJDUzMWEwMzFiLWQ4YjAtNDFkNC1iNDg2LWEwNTNlNDRlYWIzNQ.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     5,
+     5,
+     5,
+     5,
+     5
+      ]
+},
+{
+  "name":"jalal",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAeJAAAAJDMyY2QxODJjLTZhZGMtNGQ5Zi1iMmFiLTNhNWU5N2VjYjZmNg.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     5,
+     5,
+     5,
+     5,
+     5
+      ]
+},
+{
+  "name":"Jason",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/000/2cd/003/030a023.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     5,
+     5,
+     5,
+     5,
+     5
+      ]
+},
+{
+  "name":"Nate",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlPAAAAJDE1NDVmMDc3LTVjMmMtNDlkMy1iYjA0LWE5ODM0ZGRmMGZmYw.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     5,
+     5,
+     5,
+     5,
+     5
+      ]
+},
+{
+  "name":"shila",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAQhAAAAJGY5ZDVkYzcwLTlkMjQtNGNlMS04MzFkLTY1Yjk0MWZiZmUyYQ.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     5,
+     5,
+     5,
+     5,
+     5
+      ]
+}
+]
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friends;
