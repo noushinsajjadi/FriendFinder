@@ -11,17 +11,17 @@ var CName 	= currentuser.name;
 var CImage 	= currentuser.image;
 var CScores = currentuser.scores;
 
-
+console.log("in apiroutes" + CScores);
 var bestFriend = {
 			name: "",
 			image: "",
 			friendDifference: 100
 		};
-
+console.log((friendsList.length)-1);
 //loop through the friends to get each friends scores
-		for(var i = 0; i < [friendsList].length-1; i++){
+		for(var i = 0; i < (friendsList.length)-1; i++){
 
-			//console.log(friendsList[i].name);
+			console.log(friendsList[i].name);
 
 			totalDifference = 0;
 
@@ -37,8 +37,8 @@ var bestFriend = {
 				if (totalDifference <= bestFriend.friendDifference){
 
 					// Reset the bestMatch to be the new friend. 
-					bestFriend.name = friends[i].name;
-					bestFriend.image = friends[i].photo;
+					bestFriend.name = friendsList[i].name;
+					bestFriend.image = friendsList[i].photo;
 					bestFriend.friendDifference = totalDifference;
 				}
 			}
